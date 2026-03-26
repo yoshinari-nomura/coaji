@@ -1,0 +1,23 @@
+#+TITLE: coaji --- A Small OpenSCAD library
+#+AUTHOR: Yoshinari Nomura
+#+EMAIL: nom@quickhack.net
+#+DATE: 2026-01-01
+#+OPTIONS: H:3 num:2 toc:nil
+#+OPTIONS: ^:nil \n:nil ::t |:t f:t tex:t
+#+OPTIONS: d:nil tags:t
+#+OPTIONS: author:t email:nil creator:nil
+#+OPTIONS: timestamp:nil timestamps:nil
+#+STARTUP: indent show3levels
+#+PROPERTY: header-args:scad :tangle yes :comments org :exports code :results file :colorscheme Tomorrow :size 200,200
+#+LANGUAGE: en
+
+* What is coaji?
+coaji: is a small OpenSCAD library,
+named after small horse mackerel (scad) in Japanese.
+
+* Usage
+Requires [[https://github.com/BelfrySCAD/BOSL2/][BOSL2]]
+
+#+begin_src scad
+  include <coaji/std.scad>
+#+end_src
